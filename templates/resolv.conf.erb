@@ -3,3 +3,4 @@ search paosin.local
 <% @dns_servers.each do |dns_server| %>
 nameserver <%= dns_server %><% end %>
 <% if @add_external_dns %>nameserver 4.4.4.4<% end %>
+nameserver 8.8.8.8
